@@ -14,7 +14,7 @@ public class PreferenciasManager {
     Context _context;
     // Modo
     int PRIVATE_MODE = 0;
-    // Nombre de la preferencia
+    // Nombre de la preferenciS
 
 
     public PreferenciasManager(Context context) {
