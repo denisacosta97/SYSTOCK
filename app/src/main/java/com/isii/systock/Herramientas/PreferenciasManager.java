@@ -24,17 +24,6 @@ public class PreferenciasManager {
         editor = pref.edit();
     }
 
-    /*public void setFirstTimeLaunch(boolean isFirstTime) {
-
-        editor.putBoolean(Utils.IS_FIRST_TIME_LAUNCH, isFirstTime);
-        editor.commit();
-    }
-
-    public boolean isFirstTimeLaunch() {
-
-        return pref.getBoolean(Utils.IS_FIRST_TIME_LAUNCH, true);
-    }*/
-
     public String getValueString(String tag) {
         return pref.getString(tag, "");
     }
